@@ -11,7 +11,7 @@
 (" ")*([Aa][nN])(" ")+ {occurance++;}
 %%
 int main(){
-    yyin=fopen("labA2.txt","r");
+    yyin=fopen("2--animal.txt","r");
     yylex();
     printf("\n%d",occurance);
     return 0;
